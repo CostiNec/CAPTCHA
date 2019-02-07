@@ -1,0 +1,24 @@
+Nen Ionut, 314CB
+TASK1
+Programul contine 2 structuri suplimentare pe lange cele din "bmp_header.h"
+in care sunt stocate datele de intrare si matricea de pixeli din poza. Dupa
+citirea datelor din fisierul de input programul va aloca memoria pentru datele 
+din infoheader si fileheader si se aloca memoria necesara pentru matricea de
+pixeli.Dupa ce se citesc datele din matricea de pixeli aceasta va fi parcursa, iar
+pentru fiecare element care are una din culori diferita de 255 se vor rescrie
+culorile din pixelul respectiv. La final programul va crea fisierul de output 
+si va elibera memoria alocata si va inchide fisierele deschise.
+
+TASK2
+Programul de la task2 are aceleeasi fisiere de input si aceleasi structuri
+suplimentare ca la task 1. Matricea de pixeli de la task-ul 1 este converita
+intr-o matrice de caractere. Parcurgerea matricei de caractere se face de la 
+stanga la dreapta din coltul din stanga sus pe coloane. 
+Task-ul 2 are unele functii suplimentare:check,checkone, identify, modify.
+Functia check imi verifica daca pixelul citit este diferit de culoarea alb,
+si imi va returna 1 daca este diferit de alb.
+Functia checkone verifica daca cifra gasita este 1( 1 este caz special deoarece 
+parcurgerea matricei incepe din stanga si aria lui 1 este tot in stanga).
+Functia identify imi identifica si returneaza cifra pe care o gaseste programul.
+Functia modify imi hasureaza aria unei cifre pentru a nu se citi de 2 ori aceeasi
+cifra.
